@@ -17,6 +17,7 @@ It will only show the first hundred members per role, as well as the already cac
 ### ToDo
 Feel free to contribute if you want
  - Better role overview
+   
 ![image](https://github.com/user-attachments/assets/bb647233-2829-47d4-8589-38cb381bbcfb)
 - Limit width of role list
 - Make members list more like role member view
