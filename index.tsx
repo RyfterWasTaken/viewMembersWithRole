@@ -15,7 +15,6 @@ import { MemberIcon } from "./componenents/icons";
 import { openVMWRModal } from "./componenents/ViewMembersModal";
 
 // VMWR: View Members With Role
-
 const makeContextMenuPatch: () => NavContextMenuPatchCallback = () => (children, { guild }: { guild: Guild, onClose(): void; }) => {
     if (!guild) return;
 
@@ -45,10 +44,3 @@ export default definePlugin({
     start() { },
     stop() { },
 });
-
-/*
- * getRolesWithMemberCount: https://discord.com/api/v9/guilds/GUILDID/roles/member-counts
- *
- * getMembersWithRole: https://discord.com/api/v9/guilds/GUILDID/roles/ROLEID/member-ids
- */
-
