@@ -36,7 +36,7 @@ export default definePlugin({
     authors: [
         {
             name: "Ryfter",
-            id: 0n,
+            id: 898619112350183445n,
         },
     ],
     contextMenus: {
